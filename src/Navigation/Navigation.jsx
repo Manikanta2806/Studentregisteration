@@ -12,16 +12,16 @@ export default function Navigation() {
             <Link className="nav-link" to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="coursetype">Course Types</Link>
+            <Link className="nav-link" to="/coursetype">Course Types</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="courses">Course</Link>
+            <Link className="nav-link" to="/courses">Course</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="courseoffering">Course Offerings</Link>
+            <Link className="nav-link" to="/courseoffering">Course Offerings</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="Registration">Registrations</Link>
+            <Link className="nav-link" to="/Registration">Registrations</Link>
           </li>
         </ul>
       </div>
